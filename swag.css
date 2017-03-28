@@ -43,6 +43,25 @@ div#links div#basic div#mail i:hover {
 	opacity: 1;
 }
 
+div#links div#basic div#misc {
+	padding: 30px;
+	background-color: #222;
+	width: 200px;
+	position: absolute;
+	bottom: 84px;
+	left: 225px;
+}
+
+div#links div#basic div#misc i {
+	font-size: 45px;
+	opacity: .6;
+	transition: .5s opacity;
+}
+
+div#links div#basic div#misc i:hover {
+	opacity: 1;
+}
+
 div#links div#chans ul {
 	margin-top: 43px;
 }
