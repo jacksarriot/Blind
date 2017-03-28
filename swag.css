@@ -145,7 +145,7 @@ div#searchbox {
    color:    #333;
 }
 
-/* */
+/* http://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting-using-css */
 
 body {
   -webkit-touch-callout: none; /* iOS Safari */
