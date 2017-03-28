@@ -62,6 +62,10 @@ div#links div#chans ul a li {
 	font-family: 'Ubuntu Mono', monospace;
 }
 
+a {
+	outline: none;
+}
+
 div#links div#chans ul a li:hover {
 	background-color: #262626;
 }
