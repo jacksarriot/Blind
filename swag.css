@@ -1,4 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size: 100px;
+	color: #222;
+	margin-top: 5px;
+	cursor: default;
+}
 
 html, body {
 	margin: 0px;
@@ -48,7 +57,7 @@ div#links div#basic div#misc {
 	background-color: #222;
 	width: 200px;
 	position: absolute;
-	bottom: 84px;
+	bottom: 164px;
 	left: 225px;
 }
 
@@ -116,4 +125,34 @@ div#searchbox {
 	border-radius: 5px;
 	position: relative;
 	margin: 0 auto;
+}
+
+
+/* http://stackoverflow.com/users/299509/toscho */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #333;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #333;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #333;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #333;
+}
+
+/* */
+
+body {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
