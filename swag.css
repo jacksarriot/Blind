@@ -87,7 +87,7 @@ div#links div#chans ul a {
 }
 
 div#links div#chans ul a li {
-	color: #3E3E3E;
+	color: #4E4E4E;
 	background-color: var(--color-dark);
 	padding: 15px;
 	width: 450px;
@@ -106,7 +106,7 @@ div#links div#chans ul a li:hover {
 }
 
 div#links div#chans ul a li span {
-	color: #303030;
+	color: #404040;
 }
 
 .search {
@@ -119,7 +119,7 @@ div#links div#chans ul a li span {
 	font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
 	font-size: 30px;
 	letter-spacing: 0.5px;
-	color: #7d7d7d;
+	color: #4E4E4E;
 	border: none;
 	border-left: 20px solid var(--color-lite);
 }
