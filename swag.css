@@ -1,17 +1,22 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
+:root {
+  --color-dark: #211D1B;
+  --color-lite: #26221F;
+}
+
 h1 {
 	font-family: 'Lobster', cursive;
 	font-size: 100px;
-	color: #222;
+	color: var(--color-dark);
 	margin-top: 5px;
 	cursor: default;
 }
 
 html, body {
 	margin: 0px;
-	background-color: #222;
+	background-color: var(--color-dark);
 }
 
 div#whatdididowrongwithmylife {
@@ -30,7 +35,7 @@ div#links {
 div#links div#basic, div#links div#chans {
 	height: 350px;
 	width: 47%;
-	background-color: #262626;
+	background-color: var(--color-lite);
 	display: inline-block;
 	margin: 0px 10px;
 	overflow: hidden;
@@ -38,7 +43,7 @@ div#links div#basic, div#links div#chans {
 
 div#links div#basic div#mail {
 	padding: 30px;
-	background-color: #222;
+	background-color: var(--color-dark);
 	width: 200px;
 }
 
@@ -55,7 +60,7 @@ div#links div#basic div#mail i:hover {
 
 div#links div#basic div#misc {
 	padding: 30px;
-	background-color: #222;
+	background-color: var(--color-dark);
 	width: 200px;
 	position: absolute;
 	bottom: 164px;
@@ -83,7 +88,7 @@ div#links div#chans ul a {
 
 div#links div#chans ul a li {
 	color: #3E3E3E;
-	background-color: #222;
+	background-color: var(--color-dark);
 	padding: 15px;
 	width: 450px;
 	text-decoration: none;
@@ -97,7 +102,7 @@ a {
 }
 
 div#links div#chans ul a li:hover {
-	background-color: #262626;
+	background-color: var(--color-lite);
 }
 
 div#links div#chans ul a li span {
@@ -110,13 +115,13 @@ div#links div#chans ul a li span {
 	margin-right: 0px;
 	margin-top: 20px;
 	padding: 5px;
-	background: #262626;
+	background: var(--color-lite);
 	font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
 	font-size: 30px;
 	letter-spacing: 0.5px;
 	color: #7d7d7d;
 	border: none;
-	border-left: 20px solid #262626;
+	border-left: 20px solid var(--color-lite);
 }
 
 .search:focus {
