@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 
 :root {
-  --color-dark: #211D1B;
-  --color-lite: #26221F;
+  /* --color-dark: #211D1B;
+  --color-lite: #26221F; */
+
+  --color-dark: #425E4A;
+  --color-lite: #6E9D7C;
+  --color-text: var(--color-dark);
 }
 
 h1 {
@@ -48,14 +52,14 @@ div#links div#basic div#mail {
 }
 
 div#links div#basic div#mail i {
+	color: var(--color-lite);
 	font-size: 45px;
-	opacity: .6;
 	transition: .5s opacity;
 	letter-spacing: 5px;
 }
 
 div#links div#basic div#mail i:hover {
-	opacity: 1;
+	opacity: .8;
 }
 
 div#links div#basic div#misc {
@@ -68,14 +72,14 @@ div#links div#basic div#misc {
 }
 
 div#links div#basic div#misc i {
+	color: var(--color-lite);
 	font-size: 45px;
-	opacity: .6;
 	transition: .5s opacity;
 	letter-spacing: 5px;
 }
 
 div#links div#basic div#misc i:hover {
-	opacity: 1;
+	opacity: .8;
 }
 
 div#links div#chans ul {
@@ -87,13 +91,13 @@ div#links div#chans ul a {
 }
 
 div#links div#chans ul a li {
-	color: #4E4E4E;
-	background-color: var(--color-dark);
+	color: var(--color-lite);
+	background-color: var(--color-text);
 	padding: 15px;
 	width: 450px;
 	text-decoration: none;
 	margin-bottom: 5px;
-	transition: .5s background-color;
+	transition: .5s background-color, .5s color;
 	font-family: 'Ubuntu Mono', monospace;
 }
 
@@ -103,10 +107,12 @@ a {
 
 div#links div#chans ul a li:hover {
 	background-color: var(--color-lite);
+	color: var(--color-dark);
 }
 
 div#links div#chans ul a li span {
-	color: #404040;
+	color: var(--color-text);
+	opacity: .6;
 }
 
 .search {
@@ -119,7 +125,7 @@ div#links div#chans ul a li span {
 	font-family: "Roboto", "Consolas", "Helvetica", sans-serif;
 	font-size: 30px;
 	letter-spacing: 0.5px;
-	color: #4E4E4E;
+	color: var(--color-dark);
 	border: none;
 	border-left: 20px solid var(--color-lite);
 }
@@ -139,18 +145,18 @@ div#searchbox {
 /* http://stackoverflow.com/users/299509/toscho */
 
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #333;
+    color:    var(--color-text);
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #333;
+   color:    var(--color-text);
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #333;
+   color:    var(--color-text);
    opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #333;
+   color:    var(--color-text);
 }
 
 /* http://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting-using-css */
