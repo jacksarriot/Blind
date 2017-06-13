@@ -1,5 +1,5 @@
 # Blind
-A dark startup page, material style.
+A simple startup page, material style.
 
 [Click here for a demo.](http://capuno.es/blind/)
 
