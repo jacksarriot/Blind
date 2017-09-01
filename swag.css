@@ -5,9 +5,9 @@
   /* --color-dark: #211D1B;
   --color-lite: #26221F; */
 
-  --color-dark: #919BBF;
-  --color-lite: #37242A;
-  --color-text: #774D8C;
+  --color-dark: #774D8C;
+  --color-lite: #919BBF;
+  --color-text: var(--color-dark);
 }
 
 h1 {
